@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f7f9;
+  font-family: "Work Sans", sans-serif;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+  background-size: 10px 10px;
+  margin: 0;
+  padding: 0;
+}
+
+#gamepage {
+  background-color: #f6cd54;
+  margin: 0 auto;
+  padding: 1px;
+  border: 4px #f9544c solid;
+  box-shadow: 20;
+  width: 635px;
+  height: 770px;
+  box-shadow: inset 0 0 0 5px #f5b700;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
+}
+
+#homepage {
+  border: solid 1px #000;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+h1 {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  color: #8b4513;
+}
+#game {
+  background-color: black;
+  border: solid 3px #000;
+  cursor: crosshair;
+  margin: 10px;
+}
+
+#moven {
+  display: block;
+  margin: 15px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #333;
+}
